@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/*
+*2016-08-30
+ */
+/*变量*/
+#container {
+  width: 1150px;
+  height: 667px;
+  background-color: #D3D0C5;
+  margin: 0 auto;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.5rem; }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+#balcony {
+  width: 1146px;
+  height: 46px;
+  background-color: #89C7A2;
+  border: 2px #DA4B3E solid;
+  flex-grow: 1;
+  line-height: 40px; }
+
+.container-1 {
+  width: 1150px;
+  height: 161px;
+  display: flex;
+  flex-direction: row;
+  line-height: 100px; }
+
+.meeting-room {
+  background-color: #F9C376;
+  border: 2px #DA4B3E solid; }
+
+.small-meeting-room {
+  width: 100px;
+  height: 120px; }
+
+.room-1 {
+  width: 120px;
+  height: 150px; }
+
+.right {
+  margin-right: 48px; }
+
+.lead-area {
+  width: 150px;
+  height: 100px; }
+
+.workspace {
+  background-color: #B5E0F6;
+  border: 2px #DA4B3E solid; }
+
+.rest-area {
+  width: 200px;
+  height: 100px;
+  background-color: #D9DEA9;
+  border: 2px #DA4B3E solid; }
+
+.wall {
+  width: 120px;
+  height: 300px;
+  background-color: #DEDEDE;
+  border: 2px #DA4B3E solid; }
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 60px; }
+
+.container-3 {
+  width: 200px;
+  height: 300px;
+  font-size: 1.2rem;
+  line-height: 150px;
+  border: 2px #DA4B3E solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.litte-room {
+  width: 98px;
+  height: 148px;
+  border: 1px #DA4B3E solid; }
+
+.user-experience-room {
+  background-color: #E8E6A7; }
+
+#mainWorkspace {
+  height: 300px;
+  width: 842px;
+  border: 2px #DA4B3E solid;
+  line-height: 300px; }
+
+.drinking-room {
+  background-color: #D9DEA9; }
+
+.engine-room {
+  background-color: #E8C79D; }
+
+#gate {
+  width: 120px;
+  height: 40px;
+  background-color: #ED7D3B;
+  border: 2px #DA4B3E solid;
+  margin-top: 48px;
+  line-height: 40px; }
+
+img {
+  width: 100%;
+  height: 100%;
+  display: none; }
+
+#mainWorkspace:hover img, .rest-area:hover img, #workspace-1:hover img, #workspace-2:hover img,
+.room-1:hover img, .room-2:hover img, .room-3:hover img, .room-4:hover img, #user-experience-room-1:hover img,
+#user-experience-room-2:hover img, .drinking-room:hover img, .engine-room:hover img, #gate:hover img {
+  display: inline-block; }
+
+#mainWorkspace:hover span, .rest-area:hover span, #workspace-1:hover span, #workspace-2:hover span,
+.room-1:hover span, .room-2:hover span, .room-3:hover span, .room-4:hover span, #user-experience-room-1:hover span,
+#user-experience-room-2:hover span, .drinking-room:hover span, .engine-room:hover span, #gate:hover span, #balcony:hover span {
+  display: none; }
+
+#balcony:hover img {
+  display: inline-block;
+  width: 300px;
+  height: 400px; }
+
+#gate:hover img {
+  display: inline-block;
+  position: fixed;
+  top: 248px;
+  width: 700px;
+  height: 400px; }
+
+/*# sourceMappingURL=style.css.map */
